@@ -1,0 +1,18 @@
+Create laravel project
+composer create-project --prefer-dist laravel/laravel:^7.0 pure_laravel_blog
+
+Generate project
+php artisan key:generate
+
+Add Laravel Auth Contollers
+composer require laravel/ui "^2.0"
+
+Add Laravel Auth Views Using Bootstrap
+php artisan ui bootstrap --auth
+
+
+Create Model with Migration
+php artisan make:model Post -m
+
+Create Controller Ressource
+php artisan make:controller PostController -r

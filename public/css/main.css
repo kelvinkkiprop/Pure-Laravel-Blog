@@ -1,0 +1,204 @@
+/*--------------------------------------COMMON------------------------------------------*/  
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+.supernav{
+    border-top: 2px solid #dc3545;
+}
+.supernav .dropdown-menu a {
+    line-height: 2;
+    font-size: .9rem;
+}
+.supernav .dropdown-menu a:hover {
+    border-bottom: 2px solid #000000;
+}
+#postnotfier {
+    position: fixed;
+    top: 45vh;
+    left: 0;
+    z-index: 99;
+    border: none;
+    outline: none;
+    margin-left: -2rem;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#postnotfier li {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: .5rem;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+}
+
+#postnotfier li:hover {
+    text-decoration: none;
+    width: 6rem;
+    overflow: visible;
+    background-color: #ffffff;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#postnotfier i {
+    width: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+#postnotfier a {
+    color: #dc3545;
+    padding: 0;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+/*--------------------------------------./COMMON------------------------------------------*/  
+
+/*--------------------------------------HOME------------------------------------------*/   
+#home {
+    min-height: calc(100vh - 10vh);
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/basketball.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: #28a745 2px solid;
+}
+#home .top-right-links{
+    display: inline-flex;
+}
+#home .top-right-links .nav-link{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#home .top-right-links .nav-link:hover{
+    color: #28a745;;
+}
+#home .super-brand{
+    text-align: center;
+}
+#home .super-brand li{
+    list-style-type: none;
+    line-height: 20px;
+}
+#home .super-brand .navbar-brand{
+    color: #ffffff;
+    font-size: smaller !important;
+    font-weight: bolder;
+}
+#home .hero {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#home .content {
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#home .content .btn{
+    border-radius: 0;
+}
+#home .title{
+    margin-top: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+#home .title .fa{
+    border-radius: 50%;
+    padding: 20px;
+    border: #ffffff 2px solid;
+}
+#home .core_values {
+    color: #ffffff;
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ /*--------------------------------------./HOME------------------------------------------*/
+
+ /*--------------------------------------DASHBOARD------------------------------------------*/
+ #dashboard .latestusers{
+     color: grey !important;
+     font-family: "Lato";
+ }
+ /*--------------------------------------./DASHBOARD------------------------------------------*/
+
+  /*--------------------------------------APP------------------------------------------*/
+  #app {
+    min-height: calc(100vh - 10vh);
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/EarthMap.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+#app .navbar-brand {
+    color: #ffffff !important;
+    font-weight: bolder;
+}
+
+#app .navbar a {
+    color: #ffffff !important;
+}
+
+#app .navbar a:hover {
+    color: #dc3545 !important;
+}
+  /*--------------------------------------./APP------------------------------------------*/ 
+
+
+  /*--------------------------------------AUTH------------------------------------------*/
+  #auth {
+    min-height: calc(100vh - 10vh);
+    background-color: #f8f9fa;
+}
+  /*--------------------------------------./AUTH------------------------------------------*/ 
+
+    /*--------------------------------------FOOTER------------------------------------------*/
+    #footer {
+        min-height: calc(100vh - 90vh);
+        background-color: #000000;
+        color: #ffffff;
+        padding: 20px;
+        position: relative;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: -25px !important;
+    }
+    
+    #footer .footer-links {
+        text-align: center;
+    }
+    
+    #footer a {
+        color: #ffffff;
+    }
+    
+    #footer a:hover {
+        color: #00ff00;
+        text-decoration: none;
+    }
+    /*--------------------------------------./FOOTER------------------------------------------*/
